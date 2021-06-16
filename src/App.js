@@ -1,5 +1,13 @@
+import GlobalStyle from "./styles/globalStyles";
+import Card from "./components/Card";
+
 function App() {
-  return <div>App</div>;
+  return (
+    <>
+      <GlobalStyle />
+      <Card />
+    </>
+  );
 }
 
 export default App;
