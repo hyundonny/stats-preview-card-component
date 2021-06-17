@@ -24,10 +24,12 @@ Users should be able to:
 ### Screenshot
 
 Desktop
+
 ![](./src/screenshots/desktop.png)
 
 Mobile
-![](./src/screenshots/mobile.png)
+
+<img src="./src/screenshots/mobile.png" height="600" />
 
 ## My process
 
