@@ -6,7 +6,7 @@ import desktopImg from "../assets/images/desktopImg.jpg";
 const Card = () => {
   return (
     <CardWrapper>
-      <div className="card__img-area card__img-container">
+      <div className="card__img">
         <picture>
           <source media="(max-width: 375px)" srcset={mobileImg} />
           <img
@@ -16,31 +16,33 @@ const Card = () => {
           />
         </picture>
       </div>
-      <div className="card__content-area card__text-area">
-        <h1 className="heading card__text-heading">
-          Get <span className="heading--accent">insights</span> that help your
-          business grow
-        </h1>
-        <p className="text card__main-text">
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
-      </div>
-      <div className="card__content-area card__stats-area">
-        <ul className="card__stats-list">
-          <li className="card__stat">
-            <h2 className="heading card__stat-heading">10k+</h2>
-            <p className="text card__stat-text">companies</p>
-          </li>
-          <li className="card__stat">
-            <h2 className="heading card__stat-heading">314</h2>
-            <p className="text card__stat-text">templates</p>
-          </li>
-          <li className="card__stat">
-            <h2 className="heading card__stat-heading">12M+</h2>
-            <p className="text card__stat-text">queries</p>
-          </li>
-        </ul>
+      <div className="card__content">
+        <div className="card__content-text">
+          <h1 className="heading card__content-text-heading">
+            Get <span className="accent">insights</span> that help your business
+            grow
+          </h1>
+          <p className="text card__content-text-copy">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+        <div className="card__content-stats">
+          <ul className="card__content-stats-list">
+            <li>
+              <h2 className="heading card__content-stat-heading">10k+</h2>
+              <p className="text card__content-stat-text">companies</p>
+            </li>
+            <li>
+              <h2 className="heading card__content-stat-heading">314</h2>
+              <p className="text card__content-stat-text">templates</p>
+            </li>
+            <li>
+              <h2 className="heading card__content-stat-heading">12M+</h2>
+              <p className="text card__content-stat-text">queries</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </CardWrapper>
   );
