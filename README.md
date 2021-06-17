@@ -23,7 +23,10 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop
 ![](./src/screenshots/desktop.png)
+
+Mobile
 ![](./src/screenshots/mobile.png)
 
 ## My process
