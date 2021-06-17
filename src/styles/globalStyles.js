@@ -19,11 +19,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html {
+    height: 100%;
 	  box-sizing: border-box;
   }
 
   body {
+    min-height: 100%;
     background: var(--primary-main-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 `;
 

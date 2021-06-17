@@ -8,19 +8,20 @@ const Card = () => {
     <CardWrapper>
       <div className="card__img">
         <picture>
-          <source media="(max-width: 375px)" srcset={mobileImg} />
+          <source media="(max-width: 375px)" srcSet={mobileImg} />
           <img
             className="card__image"
             src={desktopImg}
             alt="A woman smiling at a meeting"
           />
         </picture>
+        <div className="card__img-overlay"></div>
       </div>
       <div className="card__content">
         <div className="card__content-text">
           <h1 className="heading card__content-text-heading">
             Get <span className="accent">insights</span> that help your business
-            grow
+            grow.
           </h1>
           <p className="text card__content-text-copy">
             Discover the benefits of data analytics and make better decisions
