@@ -44,5 +44,3 @@ After finishing [my first project](https://tripus.me), I realized I was giving e
 
 - Website - [Hyun Don Moon](https://velog.io/@hyundonny)
 - Frontend Mentor - [@hyundonny](https://www.frontendmentor.io/profile/hyundonny)
-
-# stats-preview-card-component
